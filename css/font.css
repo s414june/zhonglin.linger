@@ -1,0 +1,35 @@
+.hina-mincho-regular {
+	font-family: "Hina Mincho", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+/* Use a value from 200 to 900 */
+
+.noto-serif-hk-300 {
+	font-family: "Noto Serif HK", serif;
+	font-optical-sizing: auto;
+	font-weight: 300;
+	font-style: normal;
+}
+
+.noto-serif-hk-500 {
+	font-family: "Noto Serif HK", serif;
+	font-optical-sizing: auto;
+	font-weight: 500;
+	font-style: normal;
+}
+
+.noto-serif-hk-700 {
+	font-family: "Noto Serif HK", serif;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.noto-serif-hk-800 {
+	font-family: "Noto Serif HK", serif;
+	font-optical-sizing: auto;
+	font-weight: 800;
+	font-style: normal;
+}

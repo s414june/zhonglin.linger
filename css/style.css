@@ -1,0 +1,32 @@
+.menu-btn {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 16px 24px;
+}
+.menu-btn div {
+	background: #fff;
+	width: 24px;
+	height: 2px;
+	margin: 6px 0;
+	border-radius: 2px;
+	transition: 0.2s;
+}
+.menu-btn.active div {
+	transform: scale(1.1);
+	transition: 0.3s;
+}
+.menu-btn.active div:nth-child(1) {
+	transform: translate(0, 8px) scale(1.1) rotate(-45deg);
+}
+.menu-btn.active div:nth-child(2) {
+	transform: scale(1.1);
+	opacity: 0;
+}
+.menu-btn.active div:nth-child(3) {
+	transform: translate(0, -8px) scale(1.1) rotate(45deg);
+}
+
+.text-shadow {
+	text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.6);
+}
