@@ -34,10 +34,15 @@ const app = createApp({
 			menuActive.value = !menuActive.value
 		}
 
+		const scrollToTop = () => {
+			window.scrollTo({ top: 0, behavior: "smooth" })
+		}
+
 		return {
 			menuActive,
 			menuItems,
 			clickMenu,
+			scrollToTop,
 		}
 	},
 })
